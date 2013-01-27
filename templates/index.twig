@@ -1,5 +1,10 @@
-{% extends "layout.html" %}
+{% extends "layout.twig" %}
 
-{% block content %}
-Welcome to your new Silex Application!
+{% block body %}
+<h1>Silexpress - Silex as a Wordpress thin client</h1>
+<section>
+  {% for post in posts %}
+  {% include '_post_short.twig' with {'post': post} %}
+  {% endfor %}
+</section>
 {% endblock %}

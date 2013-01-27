@@ -1,0 +1,9 @@
+{% extends "layout.twig" %}
+
+{% block title %}{{ post.title }}{% endblock %}
+
+{% block body %}
+<section>
+  {% include '_post_long.twig' %}
+</section>
+{% endblock %}

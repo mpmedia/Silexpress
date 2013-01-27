@@ -5,3 +5,4 @@ composer.phar
 /cache/
 silex.log
 composer.lock
+logs

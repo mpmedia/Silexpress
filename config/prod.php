@@ -1,3 +1,4 @@
 <?php
+use Domain\PostRepo;
 
-// configure your app for the production environment
+$app['posts'] = new PostRepo('http://programania.net'); // use your blog's url

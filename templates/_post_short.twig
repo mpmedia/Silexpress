@@ -1,0 +1,5 @@
+<article>
+  <h1><a href="{{ path('post', { slug: post.slug }) }}">{{ post.title }}</a></h1>
+  <section>{% include '_post_meta.twig' %}</section>
+  <section>{{ post.excerpt | raw }}</section>
+</article>
