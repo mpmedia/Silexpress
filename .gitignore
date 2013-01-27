@@ -1,2 +1,7 @@
 .idea
 *.iml
+composer.phar
+/vendor/
+/cache/
+silex.log
+composer.lock
